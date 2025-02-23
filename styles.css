@@ -9,11 +9,35 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f2f2f2;
     color: #333;
-    background-image: url('https://www.example.com/et-background.jpg'); /* Optional: Background image of stars or sky */
+    background-color: #f2f2f2;
+}
+
+/* Hero Section - Adding the hero image */
+#home {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/hero-image.jpg'); /* Your hero image path */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#home p {
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 800px;
 }
 
 /* Header and Navbar */
